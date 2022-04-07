@@ -1,4 +1,3 @@
-if Code.ensure_loaded?(Bonfire.API.GraphQL) do
 defmodule Bonfire.Files.GraphQL do
   import Where
 
@@ -50,5 +49,4 @@ defmodule Bonfire.Files.GraphQL do
       {:cont, acc}
     end
   end
-end
 end
